@@ -16,4 +16,13 @@ class RestaurantRepositoryTest {
     var cuisine = restaurants.get(0);
     assertEquals("Deliciousgenix", cuisine.name());
   }
+
+  @Test
+  void should_find_by_criteria() {
+    var restaurants = repository.findByCriteria(restaurant -> restaurant.name().equals("Chowish"));
+    assertEquals(1, restaurants.size());
+
+    var cuisine = restaurants.get(0);
+    assertEquals("Chowish", cuisine.name());
+  }
 }

@@ -19,8 +19,7 @@ class RestaurantControllerTestIT {
 
   private MockMvc mvc;
 
-  @Autowired
-  private WebApplicationContext webApplicationContext;
+  @Autowired private WebApplicationContext webApplicationContext;
 
   @BeforeEach
   public void setUp() {
@@ -33,5 +32,48 @@ class RestaurantControllerTestIT {
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.length()", is(200)))
         .andExpect(jsonPath("$[0].name", is("Deliciousgenix")));
+  }
+
+  @Test
+  void should_find_best() throws Exception {
+    mvc.perform(get("/restaurants/best").accept(MediaType.APPLICATION_JSON))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.length()", is(5)))
+        .andExpect(jsonPath("$[4].name", is("Sizzle Yummy")));
+  }
+
+  @Test
+  void should_not_find_best_with_invalid_param() throws Exception {
+    mvc.perform(
+            get("/restaurants/best").queryParam("rating", "A").accept(MediaType.APPLICATION_JSON))
+        .andExpect(status().isBadRequest());
+  }
+
+  @Test
+  void should_not_find_best_with_out_of_bounds_param() throws Exception {
+    mvc.perform(
+            get("/restaurants/best").queryParam("rating", "6").accept(MediaType.APPLICATION_JSON))
+        .andExpect(status().isBadRequest());
+  }
+
+  @Test
+  void should_find_best_by_cuisine() throws Exception {
+    mvc.perform(
+            get("/restaurants/best")
+                .queryParam("cuisine", "Chinese")
+                .accept(MediaType.APPLICATION_JSON))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.length()", is(5)))
+        .andExpect(jsonPath("$[0].name", is("Deliciouszilla")));
+  }
+
+  @Test
+  void should_find_empty_best() throws Exception {
+    mvc.perform(
+            get("/restaurants/best")
+                .queryParam("cuisine", "Invalid")
+                .accept(MediaType.APPLICATION_JSON))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.length()", is(0)));
   }
 }

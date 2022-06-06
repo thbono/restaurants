@@ -17,4 +17,14 @@ class CuisineRepositoryTest {
     assertEquals(1, cuisine.id());
     assertEquals("American", cuisine.name());
   }
+
+  @Test
+  void should_find_by_criteria() {
+    var cuisines = repository.findByCriteria(cuisine -> cuisine.name().equals("Italian"));
+    assertEquals(1, cuisines.size());
+
+    var cuisine = cuisines.get(0);
+    assertEquals(4, cuisine.id());
+    assertEquals("Italian", cuisine.name());
+  }
 }

@@ -6,15 +6,12 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class CuisineRepository extends CSVRepository<Cuisine> {
 
-  private static final String DATA_FILE = "data/cuisines.csv";
-
-  @Override
-  protected String getDataFile() {
-    return DATA_FILE;
+  public CuisineRepository() {
+    super("data/cuisines.csv", true);
   }
 
   @Override
-  protected Cuisine buildEntity(String[] line) {
-    return new Cuisine(Integer.parseInt(line[0]), line[1]);
+  protected Cuisine buildEntity(String[] row) {
+    return new Cuisine(Integer.parseInt(row[0]), row[1]);
   }
 }

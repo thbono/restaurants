@@ -52,7 +52,11 @@ Integration tests:
 
 > ./mvnw spring-boot:run
 
-## Endpoint samples
+## Main endpoint sample
+
+> curl --request GET --url 'http://localhost:8080/restaurants/best?name=Delicious&rating=4&distance=2&price=15&cuisine=Chinese'
+
+## Additional endpoint samples
 
 Fetch all cuisines:
 
@@ -61,3 +65,4 @@ Fetch all cuisines:
 Fetch all restaurants:
 
 > curl --request GET --url http://localhost:8080/restaurants
+

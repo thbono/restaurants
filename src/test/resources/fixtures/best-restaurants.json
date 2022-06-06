@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Deliciousgenix",
+    "rating": 4,
+    "distance": 1,
+    "price": 10,
+    "cuisineId": 11
+  },
+  {
+    "name": "Deliciouszilla",
+    "rating": 4,
+    "distance": 1,
+    "price": 15,
+    "cuisineId": 2
+  },
+  {
+    "name": "Fodder Table",
+    "rating": 4,
+    "distance": 1,
+    "price": 20,
+    "cuisineId": 8
+  },
+  {
+    "name": "Dished Grill",
+    "rating": 3,
+    "distance": 1,
+    "price": 10,
+    "cuisineId": 8
+  },
+  {
+    "name": "Sizzle Yummy",
+    "rating": 3,
+    "distance": 1,
+    "price": 15,
+    "cuisineId": 18
+  }
+]

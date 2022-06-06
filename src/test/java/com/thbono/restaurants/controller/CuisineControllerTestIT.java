@@ -19,8 +19,7 @@ class CuisineControllerTestIT {
 
   private MockMvc mvc;
 
-  @Autowired
-  private WebApplicationContext webApplicationContext;
+  @Autowired private WebApplicationContext webApplicationContext;
 
   @BeforeEach
   public void setUp() {
