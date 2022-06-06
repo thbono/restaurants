@@ -1,6 +1,5 @@
 package com.thbono.restaurants.domain.service;
 
-import com.thbono.restaurants.domain.model.Cuisine;
 import com.thbono.restaurants.domain.model.Restaurant;
 import com.thbono.restaurants.domain.repository.RestaurantRepository;
 import com.thbono.restaurants.domain.service.search.RestaurantPredicates;
@@ -21,11 +20,9 @@ public class RestaurantService {
   private static final Integer BEST_SEARCH_LIMIT = 5;
 
   private final RestaurantRepository repository;
-  private final CuisineService cuisineService;
 
-  public RestaurantService(RestaurantRepository repository, CuisineService cuisineService) {
+  public RestaurantService(RestaurantRepository repository) {
     this.repository = repository;
-    this.cuisineService = cuisineService;
   }
 
   @Cacheable("restaurants.findAll")
@@ -42,11 +39,7 @@ public class RestaurantService {
     search.rating().ifPresent(rating -> addPredicate(criteria, RestaurantPredicates.byRating(rating)));
     search.distance().ifPresent(distance -> addPredicate(criteria, RestaurantPredicates.byDistance(distance)));
     search.price().ifPresent(price -> addPredicate(criteria, RestaurantPredicates.byPrice(price)));
-
-    search.cuisine().ifPresent(cuisine -> {
-      var cuisineIds = cuisineService.findByName(cuisine).stream().map(Cuisine::id).collect(Collectors.toSet());
-      addPredicate(criteria, RestaurantPredicates.byCuisineIds(cuisineIds));
-    });
+    search.cuisine().ifPresent(cuisine -> addPredicate(criteria, RestaurantPredicates.byCuisineName(cuisine)));
 
     var matches = repository.findByCriteria(criteria.get());
     return matches.stream().sorted().limit(BEST_SEARCH_LIMIT).collect(Collectors.toList());

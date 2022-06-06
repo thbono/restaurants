@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class RestaurantRepositoryTest {
 
-  private final RestaurantRepository repository = new RestaurantRepository();
+  private final RestaurantRepository repository = new RestaurantRepository(new CuisineRepository());
 
   @Test
   void should_find_all() {
