@@ -7,7 +7,7 @@ public record Restaurant(
         int rating,
         int distance,
         int price,
-        int cuisineId
+        Cuisine cuisine
 ) implements Comparable<Restaurant> {
 
     @Override

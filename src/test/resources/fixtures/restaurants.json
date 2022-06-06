@@ -4,1399 +4,1999 @@
     "rating": 4,
     "distance": 1,
     "price": 10,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Herbed Delicious",
     "rating": 4,
     "distance": 7,
     "price": 20,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Deliciousscape",
     "rating": 3,
     "distance": 7,
     "price": 50,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Hideaway Delicious",
     "rating": 2,
     "distance": 5,
     "price": 40,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Cuts Delicious",
     "rating": 3,
     "distance": 9,
     "price": 25,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Lord Delicious",
     "rating": 1,
     "distance": 7,
     "price": 35,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Hilltop Delicious",
     "rating": 3,
     "distance": 3,
     "price": 45,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Fine Delicious",
     "rating": 4,
     "distance": 5,
     "price": 45,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Deliciousish",
     "rating": 1,
     "distance": 3,
     "price": 50,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Havana Delicious",
     "rating": 3,
     "distance": 1,
     "price": 35,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Deliciouspad",
     "rating": 3,
     "distance": 10,
     "price": 40,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Deliciousbea",
     "rating": 5,
     "distance": 6,
     "price": 50,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Deliciousquipo",
     "rating": 2,
     "distance": 2,
     "price": 10,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Fed Delicious",
     "rating": 2,
     "distance": 9,
     "price": 35,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Hotspot Delicious",
     "rating": 4,
     "distance": 10,
     "price": 25,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Gusto Delicious",
     "rating": 5,
     "distance": 3,
     "price": 50,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Deliciouszen",
     "rating": 2,
     "distance": 6,
     "price": 30,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Deliciouszilla",
     "rating": 4,
     "distance": 1,
     "price": 15,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Deliciousio",
     "rating": 5,
     "distance": 9,
     "price": 40,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Local Delicious",
     "rating": 5,
     "distance": 4,
     "price": 20,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Crisp Delicious",
     "rating": 5,
     "distance": 2,
     "price": 45,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Deliciousoryx",
     "rating": 1,
     "distance": 5,
     "price": 25,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Bang Delicious",
     "rating": 5,
     "distance": 2,
     "price": 15,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Deliciouszoid",
     "rating": 3,
     "distance": 2,
     "price": 30,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Hearty ChowClick",
     "rating": 2,
     "distance": 6,
     "price": 25,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Traditional Chow",
     "rating": 5,
     "distance": 2,
     "price": 15,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Bash Chow",
     "rating": 2,
     "distance": 6,
     "price": 45,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Minty Chow",
     "rating": 4,
     "distance": 8,
     "price": 35,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Chowaza",
     "rating": 3,
     "distance": 9,
     "price": 20,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Lucha Chow",
     "rating": 3,
     "distance": 4,
     "price": 25,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Hut Chow",
     "rating": 2,
     "distance": 2,
     "price": 10,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Wish Chow",
     "rating": 3,
     "distance": 1,
     "price": 40,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Chowish",
     "rating": 3,
     "distance": 8,
     "price": 10,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Bazaar Chow",
     "rating": 4,
     "distance": 4,
     "price": 40,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Story Chow",
     "rating": 2,
     "distance": 10,
     "price": 30,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Hideout Chow",
     "rating": 2,
     "distance": 7,
     "price": 10,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Strip Chow",
     "rating": 5,
     "distance": 9,
     "price": 35,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Aroma Chow",
     "rating": 5,
     "distance": 10,
     "price": 10,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Chowology",
     "rating": 5,
     "distance": 9,
     "price": 30,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Chowify",
     "rating": 4,
     "distance": 4,
     "price": 45,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Piece Chow",
     "rating": 4,
     "distance": 9,
     "price": 10,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Cave Chow",
     "rating": 3,
     "distance": 4,
     "price": 40,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Wagon Chow",
     "rating": 3,
     "distance": 9,
     "price": 10,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Choworyx",
     "rating": 2,
     "distance": 3,
     "price": 40,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Whole Chow",
     "rating": 2,
     "distance": 7,
     "price": 15,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Central Chow",
     "rating": 3,
     "distance": 7,
     "price": 45,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Ambrosial Chow",
     "rating": 4,
     "distance": 5,
     "price": 50,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Place Chow",
     "rating": 2,
     "distance": 2,
     "price": 15,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Reservation Table",
     "rating": 4,
     "distance": 3,
     "price": 20,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Chopped Table",
     "rating": 1,
     "distance": 5,
     "price": 40,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Herbed Table",
     "rating": 1,
     "distance": 1,
     "price": 15,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Palate Table",
     "rating": 1,
     "distance": 1,
     "price": 15,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Grove Table",
     "rating": 5,
     "distance": 2,
     "price": 10,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Fodder Table",
     "rating": 4,
     "distance": 1,
     "price": 20,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Tablebes",
     "rating": 4,
     "distance": 2,
     "price": 40,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Chow Table",
     "rating": 1,
     "distance": 1,
     "price": 10,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Bay Table",
     "rating": 3,
     "distance": 7,
     "price": 50,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Tablebea",
     "rating": 1,
     "distance": 7,
     "price": 25,
-    "cuisineId": 10
+    "cuisine": {
+      "id": 10,
+      "name": "Indian"
+    }
   },
   {
     "name": "Fine Table",
     "rating": 2,
     "distance": 5,
     "price": 15,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Cellar Table",
     "rating": 4,
     "distance": 8,
     "price": 25,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Boy Table",
     "rating": 3,
     "distance": 9,
     "price": 30,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Tableomatic",
     "rating": 1,
     "distance": 5,
     "price": 20,
-    "cuisineId": 16
+    "cuisine": {
+      "id": 16,
+      "name": "German"
+    }
   },
   {
     "name": "Tableque",
     "rating": 4,
     "distance": 3,
     "price": 10,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Tableio",
     "rating": 3,
     "distance": 3,
     "price": 40,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Tableoont",
     "rating": 5,
     "distance": 10,
     "price": 20,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Tableadora",
     "rating": 5,
     "distance": 2,
     "price": 25,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Tableooze",
     "rating": 3,
     "distance": 1,
     "price": 50,
-    "cuisineId": 16
+    "cuisine": {
+      "id": 16,
+      "name": "German"
+    }
   },
   {
     "name": "Garnish Table",
     "rating": 4,
     "distance": 9,
     "price": 40,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Brew Table",
     "rating": 2,
     "distance": 10,
     "price": 15,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Hotspot Table",
     "rating": 3,
     "distance": 7,
     "price": 40,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Fresh Table",
     "rating": 3,
     "distance": 2,
     "price": 30,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Appetite Table",
     "rating": 1,
     "distance": 10,
     "price": 40,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Cave Tasty",
     "rating": 5,
     "distance": 10,
     "price": 15,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Whole Tasty",
     "rating": 1,
     "distance": 1,
     "price": 30,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Tastyio",
     "rating": 3,
     "distance": 10,
     "price": 30,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Lane Tasty",
     "rating": 5,
     "distance": 5,
     "price": 35,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Nouveau Tasty",
     "rating": 1,
     "distance": 9,
     "price": 50,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Relish Tasty",
     "rating": 3,
     "distance": 8,
     "price": 50,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Tastyooze",
     "rating": 3,
     "distance": 6,
     "price": 20,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Binge Tasty",
     "rating": 1,
     "distance": 8,
     "price": 10,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Fed Tasty",
     "rating": 3,
     "distance": 5,
     "price": 25,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Diced Tasty",
     "rating": 5,
     "distance": 4,
     "price": 40,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Tastylux",
     "rating": 5,
     "distance": 8,
     "price": 35,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Tastyaza",
     "rating": 3,
     "distance": 7,
     "price": 45,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Grill Tasty",
     "rating": 2,
     "distance": 2,
     "price": 30,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Tastyopolis",
     "rating": 1,
     "distance": 6,
     "price": 20,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Stand Tasty",
     "rating": 4,
     "distance": 3,
     "price": 40,
-    "cuisineId": 16
+    "cuisine": {
+      "id": 16,
+      "name": "German"
+    }
   },
   {
     "name": "Feast Tasty",
     "rating": 2,
     "distance": 8,
     "price": 20,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Baby Tasty",
     "rating": 3,
     "distance": 1,
     "price": 20,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Fodder Tasty",
     "rating": 4,
     "distance": 4,
     "price": 30,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Takeout Tasty",
     "rating": 5,
     "distance": 5,
     "price": 20,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Wrap Tasty",
     "rating": 1,
     "distance": 10,
     "price": 30,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Tastylia",
     "rating": 3,
     "distance": 4,
     "price": 50,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Havana Tasty",
     "rating": 4,
     "distance": 10,
     "price": 15,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Crumb Tasty",
     "rating": 2,
     "distance": 5,
     "price": 25,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Dished Tasty",
     "rating": 1,
     "distance": 7,
     "price": 25,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Chop Grill",
     "rating": 5,
     "distance": 8,
     "price": 10,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Festive Grill",
     "rating": 2,
     "distance": 4,
     "price": 35,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Me Grill",
     "rating": 5,
     "distance": 5,
     "price": 25,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Lounge Grill",
     "rating": 3,
     "distance": 10,
     "price": 40,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Coastal Grill",
     "rating": 2,
     "distance": 7,
     "price": 10,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Perfection Grill",
     "rating": 3,
     "distance": 3,
     "price": 50,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Hungry Grill",
     "rating": 3,
     "distance": 4,
     "price": 50,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Cater Grill",
     "rating": 4,
     "distance": 3,
     "price": 50,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Presto Grill",
     "rating": 5,
     "distance": 2,
     "price": 40,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Crispy Grill",
     "rating": 1,
     "distance": 7,
     "price": 45,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Grilltastic",
     "rating": 3,
     "distance": 3,
     "price": 30,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Grillsio",
     "rating": 3,
     "distance": 4,
     "price": 15,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Tasteful Grill",
     "rating": 5,
     "distance": 9,
     "price": 10,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Yummy Grill",
     "rating": 1,
     "distance": 8,
     "price": 50,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Crisp Grill",
     "rating": 2,
     "distance": 6,
     "price": 50,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Grillya",
     "rating": 2,
     "distance": 7,
     "price": 40,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Cuts Grill",
     "rating": 1,
     "distance": 7,
     "price": 30,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Grillarc",
     "rating": 2,
     "distance": 3,
     "price": 25,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Wish Grill",
     "rating": 1,
     "distance": 8,
     "price": 30,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Dished Grill",
     "rating": 3,
     "distance": 1,
     "price": 10,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Divine Grill",
     "rating": 1,
     "distance": 9,
     "price": 25,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Wedge Grill",
     "rating": 2,
     "distance": 4,
     "price": 35,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Gusto Grill",
     "rating": 3,
     "distance": 10,
     "price": 10,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Chef Grill",
     "rating": 5,
     "distance": 4,
     "price": 35,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Grove Palace",
     "rating": 2,
     "distance": 4,
     "price": 20,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Tasteful Palace",
     "rating": 2,
     "distance": 3,
     "price": 20,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Perfection Palace",
     "rating": 3,
     "distance": 1,
     "price": 20,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Palaceio",
     "rating": 4,
     "distance": 7,
     "price": 45,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Palaceado",
     "rating": 3,
     "distance": 6,
     "price": 25,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Flavor Palace",
     "rating": 2,
     "distance": 2,
     "price": 20,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Palaceadri",
     "rating": 4,
     "distance": 8,
     "price": 50,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Hotspot Palace",
     "rating": 1,
     "distance": 3,
     "price": 35,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Palaceopedia",
     "rating": 5,
     "distance": 10,
     "price": 25,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Gusto Palace",
     "rating": 5,
     "distance": 10,
     "price": 30,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Feed Palace",
     "rating": 2,
     "distance": 5,
     "price": 20,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Smash Palace",
     "rating": 1,
     "distance": 9,
     "price": 10,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Gnaw Palace",
     "rating": 1,
     "distance": 3,
     "price": 50,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Dished Palace",
     "rating": 5,
     "distance": 7,
     "price": 25,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Spicy PalaceClick to check domain availability.",
     "rating": 2,
     "distance": 6,
     "price": 10,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Nouveau Palace",
     "rating": 3,
     "distance": 8,
     "price": 15,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Relish Palace",
     "rating": 2,
     "distance": 3,
     "price": 40,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Palaceistic",
     "rating": 2,
     "distance": 10,
     "price": 45,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Palacearo",
     "rating": 1,
     "distance": 4,
     "price": 50,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Place Palace",
     "rating": 5,
     "distance": 2,
     "price": 40,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Aroma Palace",
     "rating": 2,
     "distance": 5,
     "price": 40,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Fury Palace",
     "rating": 5,
     "distance": 3,
     "price": 30,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Palacex",
     "rating": 2,
     "distance": 6,
     "price": 15,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Palaceocity",
     "rating": 1,
     "distance": 7,
     "price": 25,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Ambrosial Yummy",
     "rating": 3,
     "distance": 7,
     "price": 50,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Nibble Yummy",
     "rating": 1,
     "distance": 8,
     "price": 15,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Accent Yummy",
     "rating": 5,
     "distance": 3,
     "price": 40,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Yummylia",
     "rating": 1,
     "distance": 1,
     "price": 40,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Hotspot Yummy",
     "rating": 1,
     "distance": 3,
     "price": 45,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Chef Yummy",
     "rating": 4,
     "distance": 9,
     "price": 10,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Acclaimed Yummy",
     "rating": 5,
     "distance": 8,
     "price": 50,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Yummyella",
     "rating": 2,
     "distance": 3,
     "price": 40,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Palace Yummy",
     "rating": 4,
     "distance": 2,
     "price": 50,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Sizzle Yummy",
     "rating": 3,
     "distance": 1,
     "price": 15,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Galore Yummy",
     "rating": 2,
     "distance": 9,
     "price": 40,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Yummyquipo",
     "rating": 2,
     "distance": 3,
     "price": 45,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Divine Yummy",
     "rating": 1,
     "distance": 10,
     "price": 25,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Aladdin Yummy",
     "rating": 1,
     "distance": 4,
     "price": 30,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Yummyscape",
     "rating": 1,
     "distance": 3,
     "price": 35,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Yummylance",
     "rating": 1,
     "distance": 9,
     "price": 10,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Crisp Yummy",
     "rating": 1,
     "distance": 10,
     "price": 25,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Cantina Yummy",
     "rating": 5,
     "distance": 6,
     "price": 20,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Cellar Yummy",
     "rating": 2,
     "distance": 8,
     "price": 50,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Festive Yummy",
     "rating": 2,
     "distance": 2,
     "price": 25,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Upscale Yummy",
     "rating": 2,
     "distance": 10,
     "price": 45,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Lucha Yummy",
     "rating": 1,
     "distance": 10,
     "price": 40,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   },
   {
     "name": "Diced Yummy",
     "rating": 5,
     "distance": 3,
     "price": 20,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Factory Yummy",
     "rating": 4,
     "distance": 3,
     "price": 15,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Dude Kitchen",
     "rating": 4,
     "distance": 10,
     "price": 35,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Kitchengenics",
     "rating": 4,
     "distance": 3,
     "price": 20,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Galore Kitchen",
     "rating": 5,
     "distance": 10,
     "price": 45,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Story Kitchen",
     "rating": 5,
     "distance": 3,
     "price": 20,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Kitchenbia",
     "rating": 2,
     "distance": 1,
     "price": 30,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Fuel Kitchen",
     "rating": 4,
     "distance": 7,
     "price": 40,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Dished Kitchen",
     "rating": 5,
     "distance": 3,
     "price": 30,
-    "cuisineId": 14
+    "cuisine": {
+      "id": 14,
+      "name": "Malaysian"
+    }
   },
   {
     "name": "Kitchenish",
     "rating": 3,
     "distance": 2,
     "price": 20,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Bang Kitchen",
     "rating": 1,
     "distance": 1,
     "price": 40,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Bit Kitchen",
     "rating": 1,
     "distance": 1,
     "price": 30,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Kitchenlia",
     "rating": 2,
     "distance": 7,
     "price": 50,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Kitchenster",
     "rating": 2,
     "distance": 1,
     "price": 10,
-    "cuisineId": 1
+    "cuisine": {
+      "id": 1,
+      "name": "American"
+    }
   },
   {
     "name": "Devine Kitchen",
     "rating": 3,
     "distance": 9,
     "price": 30,
-    "cuisineId": 16
+    "cuisine": {
+      "id": 16,
+      "name": "German"
+    }
   },
   {
     "name": "Connoisseur Kitchen",
     "rating": 2,
     "distance": 6,
     "price": 30,
-    "cuisineId": 19
+    "cuisine": {
+      "id": 19,
+      "name": "Other"
+    }
   },
   {
     "name": "Munchies Kitchen",
     "rating": 5,
     "distance": 5,
     "price": 45,
-    "cuisineId": 9
+    "cuisine": {
+      "id": 9,
+      "name": "Vietnamese"
+    }
   },
   {
     "name": "Fine Kitchen",
     "rating": 2,
     "distance": 10,
     "price": 20,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Crisp Kitchen",
     "rating": 1,
     "distance": 3,
     "price": 35,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Hut Kitchen",
     "rating": 3,
     "distance": 5,
     "price": 10,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Kitchenvio",
     "rating": 3,
     "distance": 1,
     "price": 50,
-    "cuisineId": 12
+    "cuisine": {
+      "id": 12,
+      "name": "Greek"
+    }
   },
   {
     "name": "Kitchenarc",
     "rating": 2,
     "distance": 5,
     "price": 10,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Kitchenry",
     "rating": 4,
     "distance": 6,
     "price": 40,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Safety Kitchen",
     "rating": 2,
     "distance": 4,
     "price": 20,
-    "cuisineId": 6
+    "cuisine": {
+      "id": 6,
+      "name": "Japanese"
+    }
   },
   {
     "name": "Smash Kitchen",
     "rating": 1,
     "distance": 2,
     "price": 50,
-    "cuisineId": 7
+    "cuisine": {
+      "id": 7,
+      "name": "Turkish"
+    }
   },
   {
     "name": "Brew Kitchen",
     "rating": 2,
     "distance": 4,
     "price": 40,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   },
   {
     "name": "Connoisseur Bar",
     "rating": 2,
     "distance": 2,
     "price": 25,
-    "cuisineId": 17
+    "cuisine": {
+      "id": 17,
+      "name": "Indonesian"
+    }
   },
   {
     "name": "Bariva",
     "rating": 5,
     "distance": 10,
     "price": 40,
-    "cuisineId": 10
+    "cuisine": {
+      "id": 10,
+      "name": "Indian"
+    }
   },
   {
     "name": "Barscape",
     "rating": 3,
     "distance": 4,
     "price": 15,
-    "cuisineId": 4
+    "cuisine": {
+      "id": 4,
+      "name": "Italian"
+    }
   },
   {
     "name": "Hot Bar",
     "rating": 4,
     "distance": 4,
     "price": 20,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Place Bar",
     "rating": 3,
     "distance": 5,
     "price": 50,
-    "cuisineId": 13
+    "cuisine": {
+      "id": 13,
+      "name": "Mexican"
+    }
   },
   {
     "name": "Grill Bar",
     "rating": 1,
     "distance": 9,
     "price": 40,
-    "cuisineId": 5
+    "cuisine": {
+      "id": 5,
+      "name": "French"
+    }
   },
   {
     "name": "Dine Bar",
     "rating": 5,
     "distance": 10,
     "price": 35,
-    "cuisineId": 15
+    "cuisine": {
+      "id": 15,
+      "name": "African"
+    }
   },
   {
     "name": "Wave Bar",
     "rating": 4,
     "distance": 8,
     "price": 20,
-    "cuisineId": 3
+    "cuisine": {
+      "id": 3,
+      "name": "Thai"
+    }
   }
 ]

@@ -4,34 +4,49 @@
     "rating": 4,
     "distance": 1,
     "price": 10,
-    "cuisineId": 11
+    "cuisine": {
+      "id": 11,
+      "name": "Spanish"
+    }
   },
   {
     "name": "Deliciouszilla",
     "rating": 4,
     "distance": 1,
     "price": 15,
-    "cuisineId": 2
+    "cuisine": {
+      "id": 2,
+      "name": "Chinese"
+    }
   },
   {
     "name": "Fodder Table",
     "rating": 4,
     "distance": 1,
     "price": 20,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Dished Grill",
     "rating": 3,
     "distance": 1,
     "price": 10,
-    "cuisineId": 8
+    "cuisine": {
+      "id": 8,
+      "name": "Korean"
+    }
   },
   {
     "name": "Sizzle Yummy",
     "rating": 3,
     "distance": 1,
     "price": 15,
-    "cuisineId": 18
+    "cuisine": {
+      "id": 18,
+      "name": "Russian"
+    }
   }
 ]

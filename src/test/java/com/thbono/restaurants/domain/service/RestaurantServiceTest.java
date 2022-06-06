@@ -18,9 +18,6 @@ import static org.mockito.Mockito.when;
 class RestaurantServiceTest {
 
   @Mock
-  private CuisineService cuisineService;
-
-  @Mock
   private RestaurantRepository repository;
 
   private RestaurantService service;
@@ -28,7 +25,7 @@ class RestaurantServiceTest {
   @BeforeEach
   public void setUp() {
     MockitoAnnotations.openMocks(this);
-    service = new RestaurantService(repository, cuisineService);
+    service = new RestaurantService(repository);
   }
 
   @Test

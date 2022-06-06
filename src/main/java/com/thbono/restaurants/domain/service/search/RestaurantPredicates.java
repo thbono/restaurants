@@ -2,7 +2,6 @@ package com.thbono.restaurants.domain.service.search;
 
 import com.thbono.restaurants.domain.model.Restaurant;
 
-import java.util.Set;
 import java.util.function.Predicate;
 
 public class RestaurantPredicates {
@@ -23,7 +22,9 @@ public class RestaurantPredicates {
     return restaurant -> restaurant.price() <= price;
   }
 
-  public static Predicate<Restaurant> byCuisineIds(Set<Integer> cuisineIds) {
-    return restaurant -> cuisineIds.contains(restaurant.cuisineId());
+  public static Predicate<Restaurant> byCuisineName(String cuisineName) {
+    return restaurant ->
+        restaurant.cuisine() != null
+            && restaurant.cuisine().name().toUpperCase().contains(cuisineName.toUpperCase());
   }
 }
